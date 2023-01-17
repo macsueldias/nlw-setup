@@ -1,0 +1,39 @@
+npm init -y
+
+yarn add fastify
+
+yarn add typescript -D
+
+npx tsc --init
+
+update - tsconfig.json -> "target": "es2016" -> "target": "es2020"
+
+yarn add tsx -D
+
+update - package.json -> "test": "echo \"Error: no test specified\" && exit 1" -> "dev": "tsx src/server.ts"
+
+yarn dev
+
+update - package.json -> "dev": "tsx watch src/server.ts"
+
+yarn add -D prisma
+
+npm i @prisma/client
+
+npx prisma init --datasource-provider SQLite
+
+npx prisma migrate dev
+
+npx prisma studio
+
+yarn add @fastify/cors
+
+
+--------- FRONT END -----------
+npm create vite@latest
+
+- React
+- TypeScript
+
+
+  
