@@ -35,5 +35,17 @@ npm create vite@latest
 - React
 - TypeScript
 
+yarn add -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+tailwind.config.cjs -> {
+	  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+}
+
+npm install -g expo-cli
+
 
   
