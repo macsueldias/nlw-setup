@@ -18,7 +18,7 @@ update - package.json -> "dev": "tsx watch src/server.ts"
 
 yarn add -D prisma
 
-npm i @prisma/client
+yarn add @prisma/client
 
 npx prisma init --datasource-provider SQLite
 
@@ -27,6 +27,19 @@ npx prisma migrate dev
 npx prisma studio
 
 yarn add @fastify/cors
+
+
+yarn add -D prisma-erd-generator @mermaid-js/mermaid-cli
+
+add prisma.schema -> generator erd {
+  provider = "prisma-erd-generator"
+}
+
+npx prisma generate
+
+npx prisma db seed
+
+npx prisma studio
 
 
 --------- FRONT END -----------
@@ -45,7 +58,18 @@ tailwind.config.cjs -> {
   ],
 }
 
+--------- MOBILE -------------
+
 npm install -g expo-cli
+
+npx create-expo-app mobile --template
+
+npx expo start
+
+npx expo install expo-font @expo-google-fonts/inter
+
+
+
 
 
   
