@@ -68,6 +68,20 @@ npx expo start
 
 npx expo install expo-font @expo-google-fonts/inter
 
+yarn add nativewind
+
+yarn add tailwindcss --save-dev
+
+create file app.d.ts -> include -> // <reference types="nativewind/types" />
+
+npx expo install react-native-svg
+
+yarn add react-native-svg-transformer --save-dev
+
+create file -> metro.config.js from react-native-svg-transformer
+
+
+
 
 
 
