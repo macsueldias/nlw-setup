@@ -21,7 +21,7 @@ export function NewHabitForm() {
 
             <button
                 type="submit"
-                className="mt-6 rounded-lg p-4 flex items-center justify-center gap-3  bg-green-600 hover:bg-green-500"
+                className="mt-6 rounded-lg p-4 flex items-center justify-center gap-3 bg-green-600 hover:bg-green-500"
             >
                 <Check size={20} weight="bold" />
                 Confirmar

@@ -60,6 +60,8 @@ tailwind.config.cjs -> {
 
 yarn add @radix-ui/react-dialog
 
+yarn add clsx
+
 --------- MOBILE -------------
 
 npm install -g expo-cli
