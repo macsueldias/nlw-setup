@@ -84,6 +84,12 @@ yarn add react-native-svg-transformer --save-dev
 
 create file -> metro.config.js from react-native-svg-transformer
 
+npm install @react-navigation/native
+
+npx expo install react-native-screens react-native-safe-area-context
+
+npm install @react-navigation/native-stack
+
 
 
 
